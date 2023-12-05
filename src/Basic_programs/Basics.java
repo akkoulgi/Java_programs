@@ -6,8 +6,7 @@ public class Basics {
 			
 		
 		System.out.println(+20+"is the value"); // 20 is the value
-		System.out.println(+20+"is the value"); // 20 is the value
-		System.out.println(" value is "+(20+20)); // 20 is the value
+		
 
 		
 		System.out.println("new line");
