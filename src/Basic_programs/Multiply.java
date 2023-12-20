@@ -3,24 +3,25 @@ package Basic_programs;
 public  class Multiply {
 
 	
-	static int price;
+	
+	static int price;//static pool area 
 	
 	public static void main(String[] args) { //String[] args is arguement of main method - String array
-												//name of string array is args.
-		int result=multiply();
+												//name of string array is args. - Static pool area , Stack(For execution)
+		int result=multiply(); // Method calling 
 		System.out.println(result);
 		
 		
 	}
 
-	public void add() {
+	public void add() { // heap memory
 		
 		
 		
 	}
 
-	public static int multiply() {
-		
+	public static int multiply() {// method definition  - //Static pool area
+									
 		int a=2;
 		int b=3;
 		int c=9;
@@ -31,7 +32,7 @@ public  class Multiply {
 		
 		
 		
-	}
+	}// Method body is from line 23 to 35
 	
 	
 	
